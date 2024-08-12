@@ -6,8 +6,8 @@ generate_story <- function(noun, verb, adjective, adverb) {
     Once upon a time, there was a {adjective} {noun} who loved to
     {verb} {adverb}. It was the funniest thing ever!
   ")
-  cat(story, file = stderr())
-  story
+#  cat(generate_story, file = stderr())
+#  story
 }
 
 ui <- fluidPage(
